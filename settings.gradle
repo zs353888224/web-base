@@ -1,0 +1,8 @@
+rootProject.name = 'web-base'
+include 'web-base-web-app'
+include 'web-base-web-admin'
+include 'web-base-service'
+include 'web-base-initdb'
+include 'web-base-web-common'
+include 'web-base-env'
+

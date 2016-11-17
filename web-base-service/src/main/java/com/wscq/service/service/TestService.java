@@ -15,12 +15,12 @@ public class TestService {
     @Inject
     TUserMapper userMapper;
 
-    public void selectAll(){
+    public void selectAll() {
         List<TUser> list = userMapper.getAll();
         System.out.println(list.isEmpty() ? "wo ca ne!" : list.get(0).toString());
     }
 
-    public void selectALL2(){
+    public void selectALL2() {
         List<TUser> list = userMapper.getAll2();
         System.out.println(list.isEmpty() ? "wo ca ne!" : list.get(0).toString());
     }

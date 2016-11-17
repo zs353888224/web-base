@@ -1,4 +1,4 @@
-description = ''
+description = '较为独立的数据持久层'
 configurations {
     mybatisGenerator
 }
@@ -22,8 +22,8 @@ dependencies {
     testCompile(group: 'org.springframework', name: 'spring-test', version: '3.2.10.RELEASE') {
         exclude(module: 'commons-logging')
     }
-    testCompile group: 'org.dbunit', name: 'dbunit', version: '2.5.2'
-    testCompile group: 'com.github.springtestdbunit', name: 'spring-test-dbunit', version: '1.1.0'
+//    testCompile group: 'org.dbunit', name: 'dbunit', version: '2.5.2'
+//    testCompile group: 'com.github.springtestdbunit', name: 'spring-test-dbunit', version: '1.1.0'
 
     //使用Mybatis-Generator自动生成Dao、Model、Mapping相关文件
     //给mybatisGenerator插件用的jar包

@@ -23,7 +23,6 @@
           class="org.terasoluna.gfw.common.exception.ResultMessagesLoggingInterceptor">
         <property name="exceptionLogger" ref="exceptionLogger"/>
     </bean>
-
     <aop:config>
         <aop:advisor advice-ref="resultMessagesLoggingInterceptor"
                      pointcut="@within(org.springframework.stereotype.Service)"/>
